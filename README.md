@@ -1,4 +1,4 @@
-# embark
+# embark-template
 
 A Leiningen template for creating a simple Clojure+ClojureScript project.
 
