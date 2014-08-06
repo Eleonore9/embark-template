@@ -14,7 +14,7 @@ My Leiningen template for creating simple Clojure + ClojureScript personal proje
 
 ## Why?
 
-I wanted something small that could get me up and running quickly, with tests that worked out of the box.
+I wanted something small that could get new exploratory projects up and running quickly, with tests that work out of the box.
 
 ## Notes
 
