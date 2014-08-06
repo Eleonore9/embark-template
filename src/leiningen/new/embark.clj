@@ -12,7 +12,11 @@
              ["clj/src/{{sanitized}}/handler.clj" (render "handler.clj" data)]
              ["cljs/src/{{sanitized}}/core.cljs" (render "core.cljs" data)]
              ["cljs/test/{{sanitized}}/core_test.cljs" (render "core_test.cljs" data)]
-             ["resources/public/css/{{name}}.css" (render "temp.css" data)]
              ["project.clj" (render "project.clj" data)]
-             ["resources/public/img"]
-             ["resources/public/js"])))
+             ["README.md" (render "README.md" data)]
+             [".gitignore" (render "gitignore")]
+             ["LICENSE" (render "LICENSE")]
+             ["resources/public/index.html" (render "index.html" data)]
+             ["resources/public/css/{{name}}.css" (render "temp.css" data)]
+             "resources/public/img"
+             "resources/public/js")))

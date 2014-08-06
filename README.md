@@ -1,11 +1,12 @@
 # embark-template
 
-A Leiningen template for creating a simple Clojure+ClojureScript project.
+A Leiningen template for creating simple Clojure+ClojureScript personal projects.  A project created with Embark will have an MIT License created for it automatically.
+
+FIXME:  detail what's included
 
 ## Usage
 
-WARNING:  This project is not yet complete.  Once completed, these USAGE instructions will
-contain actual instructions.
+    lein new embark [project-name]
 
 ## License
 

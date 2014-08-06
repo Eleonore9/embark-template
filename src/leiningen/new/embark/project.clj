@@ -3,10 +3,17 @@
   :url "http://myurl.net"
 
   :dependencies [[org.clojure/clojure "1.6.0"]
-                 [org.clojure/clojurescript "0.0-2202"]]
+                 [org.clojure/clojurescript "0.0-2202"]
+                 [compojure "1.1.8"]]
 
   :plugins [[lein-cljsbuild "1.0.3"]
-            [com.cemerick/clojurescript.test "0.2.3"]]
+            [com.cemerick/clojurescript.test "0.2.3"]
+            [lein-ring "0.8.11"]]
+            
+  :ring {:handler {{name}}.handler/app}
+  
+  :source-paths ["clj/src"]
+  :test-paths   ["clj/test"]
 
   :cljsbuild {
     :builds {
