@@ -6,6 +6,14 @@ My Leiningen template for creating simple Clojure + ClojureScript personal proje
 
     lein new embark [project-name]
 
+Once your project is created, an example ring handler is created for you and ready to run:
+
+    lein ring server
+
+An example ClojureScript test has been created, which is also ready to run:
+
+    lein cljsbuild test
+
 ## What's in it
 
 - [Compojure](https://github.com/weavejester/compojure)
