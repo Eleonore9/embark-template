@@ -1,6 +1,6 @@
 # embark-template
 
-My [Leiningen](http://leiningen.org/) template for creating simple Clojure + ClojureScript personal projects.
+My [Leiningen](http://leiningen.org/) template for creating simple Clojure + ClojureScript web apps.
 
 ## Usage
 
