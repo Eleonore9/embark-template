@@ -24,6 +24,12 @@ An example ClojureScript test has been created, which is also ready to run:
 
 I wanted something small that could get new exploratory projects up and running quickly, with tests that work out of the box.
 
+## Installation
+
+    git clone git@github.com:inchingforward/embark-template.git
+    cd embark-template
+    lein install
+
 ## Notes
 
 A default MIT License is included.
