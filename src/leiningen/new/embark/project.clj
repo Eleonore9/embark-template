@@ -4,15 +4,16 @@
 
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.clojure/clojurescript "0.0-2202"]
-                 [compojure "1.1.8"]]
+                 [compojure "1.1.8"]
+                 [selmer "0.6.9"]]
 
   :plugins [[lein-cljsbuild "1.0.3"]
             [com.cemerick/clojurescript.test "0.2.3"]
             [lein-ring "0.8.11"]]
-            
+
   :ring {:handler {{name}}.handler/app}
-  
-  :source-paths ["clj/src"]
+
+  :source-paths ["clj/src" "templates"]
   :test-paths   ["clj/test"]
 
   :cljsbuild {

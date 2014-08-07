@@ -18,5 +18,7 @@
              ["LICENSE" (render "LICENSE")]
              ["resources/public/index.html" (render "index.html" data)]
              ["resources/public/css/{{name}}.css" (render "temp.css" data)]
+             ["templates/index.html" (render "index.html" data)]
+             ["templates/layout.html" (render "layout.html" data)]
              "resources/public/img"
              "resources/public/js")))

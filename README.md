@@ -6,9 +6,11 @@ My [Leiningen](http://leiningen.org/) template for creating simple Clojure + Clo
 
     lein new embark [project-name]
 
-Once your project is created, an example ring handler is created for you and ready to run:
+Once your project is created, an example ring handler is created and ready to run:
 
     lein ring server
+
+The index ring handler renders the templates/index.html template, which extends layout.html.
 
 An example ClojureScript test has been created, which is also ready to run:
 
@@ -19,6 +21,7 @@ An example ClojureScript test has been created, which is also ready to run:
 - [Compojure](https://github.com/weavejester/compojure)
 - [ClojureScript](https://github.com/clojure/clojurescript)
 - [clojurescript.test](https://github.com/cemerick/clojurescript.test) (requires [PhantomJS](http://phantomjs.org/))
+- [Selmer](s/Selmer)
 
 ## Why?
 
