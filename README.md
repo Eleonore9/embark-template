@@ -21,7 +21,7 @@ An example ClojureScript test has been created, which is also ready to run:
 - [Compojure](https://github.com/weavejester/compojure)
 - [ClojureScript](https://github.com/clojure/clojurescript)
 - [clojurescript.test](https://github.com/cemerick/clojurescript.test) (requires [PhantomJS](http://phantomjs.org/))
-- [Selmer](s/Selmer)
+- [Selmer](https://github.com/yogthos/selmer)
 
 ## Why?
 
