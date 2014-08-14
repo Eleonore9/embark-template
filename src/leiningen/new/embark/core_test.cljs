@@ -1,4 +1,4 @@
-(ns {{name}}-test
+(ns {{name}}.core-test
   "Core tests."
   (:require-macros [cemerick.cljs.test :refer [deftest is]])
   (:require [cemerick.cljs.test :as t]

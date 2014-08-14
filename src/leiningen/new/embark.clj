@@ -10,6 +10,7 @@
               :sanitized (name-to-path name)}]
     (->files data
              ["clj/src/{{sanitized}}/handler.clj" (render "handler.clj" data)]
+             ["clj/test/{{sanitized}}/handler_test.clj" (render "handler_test.clj" data)]
              ["cljs/src/{{sanitized}}/core.cljs" (render "core.cljs" data)]
              ["cljs/test/{{sanitized}}/core_test.cljs" (render "core_test.cljs" data)]
              ["project.clj" (render "project.clj" data)]
