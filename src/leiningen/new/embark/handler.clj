@@ -5,7 +5,7 @@
             [selmer.parser :as selmer]))
 
 (defn get-message []
-  "Hello, world!")
+  "Hello, {{name}}!")
   
 (defroutes app-routes
   (GET "/" [] (selmer/render-file "index.html" {:message (get-message)}))

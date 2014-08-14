@@ -3,4 +3,4 @@
             [clojure.test :refer [deftest is]]))
 
 (deftest test-handler
-  (is (= "Hello, world" (handler/get-message))))
+  (is (= "Hello, {{name}}!" (handler/get-message))))
